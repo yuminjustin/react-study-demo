@@ -1,0 +1,164 @@
+html,
+body,
+#root {
+    height: 100%;
+    overflow: hidden;
+}
+
+.m {
+    margin: 0 auto;
+}
+
+.c {
+    clear: both;
+}
+
+.l,
+.lil li {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.oh {
+    overflow: hidden;
+}
+
+.oa {
+    overflow: auto;
+}
+
+.none {
+    display: none;
+}
+
+.pr {
+    position: relative;
+    z-index: 2
+}
+
+.pa {
+    position: absolute;
+}
+
+.px {
+    position: fixed;
+}
+
+.db {
+    display: block;
+}
+
+.di{
+    display: inline;
+}
+
+*:focus {
+    outline: none;
+}
+
+img {
+    border: none;
+}
+
+h4 {
+    line-height: 36px;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.m3 {
+    height: 3px;
+}
+
+.m10 {
+    height: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.mm10 {
+    margin: 10px;
+}
+
+.mc10 {
+    margin: 10px 0;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.t_c {
+    text-align: center;
+}
+
+
+/* page */
+
+._app_name {
+    color: #fff;
+}
+
+._left_bar {
+    background: #fff;
+    width: 200px;
+}
+
+._main_body {
+    padding: 12px;
+}
+
+._content {
+    padding: 8px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+._error_404 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+._error_404>p {
+    margin-top: 36px;
+    font-size: 24px;
+    color: #999;
+}
+
+._common_list {}
+
+._common_list h3 {
+    line-height: 20px;
+    font-size: 18px;
+    border-left: solid 5px #3686e8;
+    text-indent: 0.5em;
+    margin: 8px 0;
+}
+
+._search_box {
+    margin: 24px 0;
+    padding: 12px;
+    background-color: #f1f1f1;
+}
