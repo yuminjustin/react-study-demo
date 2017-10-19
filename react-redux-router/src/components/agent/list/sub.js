@@ -4,7 +4,7 @@ import Store from '../../../store' /* store */
 
 /* Agent列表 下级Agent */
 
-  class First extends Component {
+  class Sub extends Component {
     state = {
       height:window.innerHeight-320
     }
@@ -89,5 +89,5 @@ import Store from '../../../store' /* store */
     }
   }
 
-  export default Store(First);
+  export default Store(Sub);
   
