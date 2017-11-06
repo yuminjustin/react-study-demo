@@ -1,6 +1,2 @@
 # react-study-demo
-我的react全家桶学习demo<br /> 
-react16 <br /> 
-router4.0 （按需加载，404页面）<br /> 
-redux<br /> 
-antd-UI<br /> 
+我的react全家桶学习demo，记录一些自己的学习经验<br /> 
