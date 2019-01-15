@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import Parent from "./p";
 import ChildOne from "./c1";
 import ChildTwo from "./c2";
+import ChildThree from "./c3";
 
 export default class Container extends React.Component {
   constructor(props) {
@@ -30,8 +31,13 @@ export default class Container extends React.Component {
   render() {
     return (
       <div>
-        <ChildOne />
-        <ChildTwo />
+        <Parent>
+          <ChildOne />
+        </Parent>
+        <Parent>
+          <ChildTwo />
+        </Parent>
+        <ChildThree />
       </div>
     );
   }
