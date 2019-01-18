@@ -12,5 +12,6 @@ webpack, babel, react@next (16.7+)<br>
 采用hooks的方式，按照上述报错内容来看，应该成为Function Component<br>
 
 #### 引用&借鉴：<br>
+官方API：https://reactjs.org/docs/hooks-reference.html<br>
 官方示例：https://reactjs.org/docs/hooks-overview.html#-state-hook<br>
 30分钟精通React今年最劲爆的新特性：https://www.jqhtml.com/18670.html
