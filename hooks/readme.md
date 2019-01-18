@@ -1,5 +1,7 @@
 运行环境：<br>
-webpack, babel, react@next (16.7+)
+webpack, babel, react@next (16.7+)<br>
+无特殊配置，就是你平时开发的配置就好！
+
 
 注意事项：<br>
 目前hooks的方式不能和class的方式混合使用，二者只能选其一。否则就会报错：<br>
